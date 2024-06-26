@@ -9,6 +9,9 @@ const config = defineConfig({
   // optimizeDeps: {
   //   exclude: ['@node-rs/argon2-darwin-arm64', '@node-rs/bcrypt-darwin-arm64'],
   // },
+  server: {
+    port: 5175,
+  },
   plugins: [
     remultKit<KIT_ROUTES>({
       kitRoutes: {
